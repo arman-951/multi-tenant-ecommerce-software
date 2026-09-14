@@ -1,14 +1,13 @@
 
 import './App.css'
-import { Button } from './components/ui/button'
+import Routers from './routes'
 
 function App() {
 
   return (
-    <div className='font-bold text-red-500'>
-     Hello
-     <Button>Click Me</Button>
-    </div>
+    <main className=''>
+     <Routers/>
+    </main>
   )
 }
 
